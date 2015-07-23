@@ -1,6 +1,6 @@
  *:not(body):not(html) {
     box-sizing: border-box;
-    border: px dashed #000;
+    border: 0px dashed #000;
 }   
 
 .columns {
@@ -35,8 +35,19 @@ header {
 
 
 #web-dev {
+    margin-top: 10%;
     position: relative;
-    margin-top:17%;
+    background-image: url(/img/my-potrait.png);
+    width: 484px;
+    height:353px;
+    
+    
+   
+}
+#web-dev:hover {
+   margin-top: 10%;
+    position: relative;
+    background-image: url(/img/my-potrait-color.png);
 }
 
 #brand {

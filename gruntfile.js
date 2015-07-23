@@ -2,19 +2,23 @@ module.exports = function(grunt){
     
                
 grunt.initConfig({
-  uglify: {
-    target: {
-      files: {
-        'js/webjeda.min.js' : ['js/jquery.js', 'js/textRotate.js', 'js/responsiveslides.min.js', 'js/slider.js']
-      }
+ cssmin: {
+  options: {
+    shorthandCompacting: false,
+    roundingPrecision: -1
+  },
+  target: {
+    files: {
+      'css/webjeda.css': ['css/custom.css', 'css/foundation.min.css', 'css/normalize.css']
     }
   }
+}
 });    
         
      
-    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     
-    grunt.registerTask('default',['uglify']);
+    grunt.registerTask('default',['cssmin']);
     
 };
 
