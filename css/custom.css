@@ -38,16 +38,16 @@ header {
     margin-top: 10%;
     position: relative;
     background-image: url(/img/my-potrait.png);
-    width: 484px;
+   width: 484px;
     height:353px;
-    
-    
-   
 }
+
+
 #web-dev:hover {
    margin-top: 10%;
     position: relative;
     background-image: url(/img/my-potrait-color.png);
+    transition: all .3s ease;
 }
 
 #brand {
@@ -1416,22 +1416,35 @@ xpush
 #imdb:hover {
     background-position: 0 9.090909%; background-size: 100%;
 }
+
+#js:hover {
+    background-position: 0 100%; background-size: 100%;
+}
+
+.js-2, .js
+{ max-width: 100%; background-size: 100%; background-image: url('/img/js-sprite.png'); }
+ 
+.js-2 { background-position: 0 0%; background-size: 100%; }
+.js { background-position: 0 100%; background-size: 100%; }
+
+
 /* Sprite Sheet Css End*/
 
 
-#ps, #ai, #html, #css, #chess, #imdb {
+#ps, #ai, #html, #css, #chess, #imdb, #js {
     opacity: 0.5;
-    transition: all .2s ease;
+    transition: all .3s ease;
     margin-left: 4%;
     margin-bottom: 4%;
     }
-#ps:hover , #ai:hover , #html:hover , #css:hover , #chess:hover , #imdb:hover {
+#ps:hover , #ai:hover , #html:hover , #css:hover , #chess:hover , #imdb:hover, #js:hover {
     opacity:1;
 }
 
+
 #section-about {
     margin-top: 2.5%;
-    margin-bottom: 4%;
+    
     background-color:white;
     padding-top:2%;
     padding-bottom: 2%;
@@ -1469,7 +1482,7 @@ xpush
 
 #my-projects {
     position: relative;
-    margin-top: 5%;
+    margin-top: 2.5%;
     margin-left:1.5%;
     margin-right:1.5%;
     background-color:#ec6f6d;
@@ -1477,7 +1490,7 @@ xpush
 }
 
 .pr-img {
-   width: 100% 
+   width: 100%;
 }
 
 
@@ -1515,20 +1528,25 @@ xpush
   border: 0;
   }
 
-.next, .next:hover, .next:visited, .next:active {
+.next,  .next:visited, .next:active {
+    opacity: 0.7;
     font-size:200%;
-    float: right;
     background-image: url(/img/right.svg);
     background-repeat: no-repeat;
     color:rgba(0,0,0,0.0);
     position: absolute;
     padding: 2%;
-    left:88%;
+    left: 88%;
     top:50%;
     z-index:999;
 }
 
-.prev, .prev:hover, .prev:visited, .prev:active {
+.next:hover, .prev:hover {
+    opacity: 1;
+}
+
+.prev, .prev:visited, .prev:active {
+    opacity: 0.7;
     font-size:200%;
     float: left;
     background-image: url(/img/left.svg);
@@ -1548,7 +1566,7 @@ xpush
     letter-spacing: 1.2px;
 }
 
-#site-footer {
+#contact {
     background-color:#494949;
     margin-left: 1.5%;
     margin-right: 1.5%;
@@ -1597,3 +1615,12 @@ svg:hover .social {
 #footer-links {
     text-align: center;    
 }
+
+#a-projects {
+    position:absolute;
+    
+    
+    
+}
+
+
