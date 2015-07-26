@@ -3,6 +3,19 @@
     border: 0px dashed #000;
 }   
 
+@font-face {
+    font-family: 'procionoregular';
+    src: url('Prociono-Regular-webfont.eot');
+    src: url('Prociono-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Prociono-Regular-webfont.woff') format('woff'),
+         url('Prociono-Regular-webfont.ttf') format('truetype'),
+         url('Prociono-Regular-webfont.svg#procionoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 .columns {
     min-height: 10px;
 }
@@ -24,11 +37,10 @@ header {
 
 
 #hello {
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'procionoregular';
     color: #E4F1FE;
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center;
-    font-weight: 900;
     opacity: 0.9 ;
     letter-spacing: 5px;
     
@@ -1615,3 +1627,4 @@ svg:hover .social {
 #web-dev {
     margin-top: 6%;
 }
+
