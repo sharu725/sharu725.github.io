@@ -197,15 +197,14 @@ header {
 }
 
 #brand {
-     
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
     
-    animation-play-state: paused; 
+  animation-play-state:paused;
+    
+   
 }
 #brand:hover {
-    animation-play-state: running;
+    
+   animation-play-state:running;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
@@ -225,12 +224,11 @@ header {
 }
 .menus:hover {
     color: snow;
-    transition: all .2s;
+    transition: all .8s;
+    
 }
 
-.menus:hover {
-    text-decoration: underline;
-}
+
 
 
 #about-me {
@@ -1615,7 +1613,8 @@ xpush
 }
 
 #logo {
-    margin-top: 3%;
+    margin-top: 2.5%;
+    margin-left: 0;
 }
 
 #projects-heading {
@@ -1776,3 +1775,58 @@ svg:hover .social {
     margin-top: 6%;
 }
 
+
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+      
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
