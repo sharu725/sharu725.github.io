@@ -1,0 +1,85 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Minimal Form Interface</title>
+		<meta name="description" content="Minimal Form Interface: Simplistic, single input view form" />
+		<meta name="keywords" content="form, minimal, interface, single input, big form, responsive form, transition" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="codrops-header">
+				<h1>WebJeda<span>I design pretty good websites!</span></h1>	
+			</header>
+			<section>
+				<form id="theForm" class="simform" autocomplete="off" action="https://getsimpleform.com/messages?form_api_token=b6d4be9b039b666b3311e1ddcbfb577c" method="POST">
+					<div class="simform-inner">
+						<ol class="questions">
+							<li>
+								<span><label for="q1">What's your name?</label></span>
+								<input id="q1" name="q1" type="text"/>
+							</li>
+							<li>
+								<span><label for="q2">What's your email?</label></span>
+								<input id="q2" name="q2" type="email"/>
+							</li>
+							<li>
+								<span><label for="q3">Type of website you want?</label></span>
+								<input placeholder="Simple, dynamic, ecommerce..." id="q3" name="q3" type="text"/>
+							</li>
+							<li>
+								<span><label for="q4">How else I can contact you?</label></span>
+								<input id="q4" name="q4" type="text"/>
+							</li>
+	         			</ol><!-- /questions -->
+						<button class="submit" type="submit">Send answers</button>
+				        <input type='hidden' name='redirect_to' value='http://blog.webjeda.com' />
+						<div class="controls">
+							<button class="next"></button>
+							<div class="progress"></div>
+							<span class="number">
+								<span class="number-current"></span>
+								<span class="number-total"></span>
+							</span>
+							<span class="error-message"></span>
+						</div><!-- / controls -->
+					</div><!-- /simform-inner -->
+					<span class="final-message"></span>
+				</form><!-- /simform -->			
+			</section>
+		</div><!-- /container -->
+		<script src="/js/classie.js"></script>
+		<script src="/js/stepsForm.js"></script>
+		<script>
+			var theForm = document.getElementById( 'theForm' );
+
+			new stepsForm( theForm, {
+				onSubmit : function( form ) {
+
+					classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
+
+					var messageEl = theForm.querySelector( '.final-message' );
+					messageEl.innerHTML = 'Thank you! We\'ll be in touch.' + '<br />' + 'Let me redirect you to my blog.';
+					classie.addClass( messageEl, 'show' );
+                    
+                    setTimeout(function() {
+                    document.getElementById("theForm").submit();
+                    }, 1000);
+                    return false;
+                    
+				}
+			} );
+		</script>
+	</body>
+</html>
