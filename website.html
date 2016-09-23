@@ -7,11 +7,9 @@ layout: compress
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>Minimal Form Interface</title>
-		<meta name="description" content="Minimal Form Interface: Simplistic, single input view form" />
-		<meta name="keywords" content="form, minimal, interface, single input, big form, responsive form, transition" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
+        <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+        <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
 		<link rel="stylesheet" type="text/css" href="/css/component.css" />
