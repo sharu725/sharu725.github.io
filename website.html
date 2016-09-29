@@ -21,7 +21,7 @@ layout: compress
 				<h1>WebJeda<span>I design pretty good websites!</span></h1>	
 			</header>
 			<section>
-				<form id="theForm" class="simform" autocomplete="off" action="https://getsimpleform.com/messages?form_api_token=b6d4be9b039b666b3311e1ddcbfb577c" method="POST">
+				<form id="theForm" class="simform" autocomplete="off" method="POST">
 					<div class="simform-inner">
 						<ol class="questions">
 							<li>
@@ -30,7 +30,7 @@ layout: compress
 							</li>
 							<li>
 								<span><label for="q2">What's your email?</label></span>
-								<input id="q2" name="q2" type="email"/>
+								<input placeholder="john@doe.com" id="q2" name="q2" name="_replyto" type="email"/>
 							</li>
 							<li>
 								<span><label for="q3">Type of website you want?</label></span>
@@ -42,7 +42,9 @@ layout: compress
 							</li>
 	         			</ol><!-- /questions -->
 						<button class="submit" type="submit">Send answers</button>
-				        <input type='hidden' name='redirect_to' value='http://blog.webjeda.com' />
+				        <input type='hidden' name="_next" value='http://blog.webjeda.com' />
+				        <input type="hidden" name="_subject" value="Webjeda Website Request!" />
+				        <input type="text" name="_gotcha" style="display:none" />
 						<div class="controls">
 							<button class="next"></button>
 							<div class="progress"></div>
@@ -59,25 +61,9 @@ layout: compress
 		</div><!-- /container -->
 		<script src="/js/classie.js"></script>
 		<script src="/js/stepsForm.js"></script>
-		<script>
-			var theForm = document.getElementById( 'theForm' );
+		<script src="/js/jQuery.js"></script>
+		<script src="/js/modernizer.js"></script>
 
-			new stepsForm( theForm, {
-				onSubmit : function( form ) {
-
-					classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
-
-					var messageEl = theForm.querySelector( '.final-message' );
-					messageEl.innerHTML = 'Thank you! We\'ll be in touch.' + '<br />' + 'Let me redirect you to my blog.';
-					classie.addClass( messageEl, 'show' );
-                    
-                    setTimeout(function() {
-                    document.getElementById("theForm").submit();
-                    }, 1000);
-                    return false;
-                    
-				}
-			} );
-		</script>
+		
 	</body>
 </html>
