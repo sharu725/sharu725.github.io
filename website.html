@@ -31,7 +31,7 @@ layout: compress
 							</li>
 							<li>
 								<span><label for="q2">What's your email?</label></span>
-								<input placeholder="john@doe.com" id="email_address" name="q2" name="_replyto" type="email" />
+								<input placeholder="john@doe.com" id="" name="q2" name="_replyto" type="email" onkeyup="email_validate(this.value)" onfocusout="hidemsg()"/>
 							</li>
 							<li>
 								<span><label for="q3">Type of website you want?</label></span>
@@ -54,7 +54,7 @@ layout: compress
 								<span class="number-total"></span>
 							</span>
 							<span class="error-message"></span>
-							<span id="error" style="display:none;position:absolute;color:rgba(255,255,255,0.45);">Wrong email</span>
+							<span id="email_address" style="display:none; position: absolute"></span>
 						</div><!-- / controls -->
 					</div><!-- /simform-inner -->
 					<span class="final-message"></span>
@@ -64,7 +64,6 @@ layout: compress
 		<script src="/js/classie.js"></script>
 		<script src="/js/stepsForm.js"></script>
 		<script src="/js/modernizer.js"></script>
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="/js/jQuery.js"></script>
 		<script>
           

@@ -195,7 +195,7 @@
 
 		return true;
 	}
-
+ 
 
 	stepsForm.prototype._showError = function( err ) {
 		var message = '';
