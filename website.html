@@ -61,13 +61,33 @@ layout: compress
 					<span class="final-message"></span>
 				</form><!-- /simform -->			
 			</section>
+			
+			
+		<section class="testimon">
+		 <header class="codrops-header">
+				<h1><span>Testimonials</span></h1>	
+			</header> 
+			
+
+              {% for review in site.data.reviews %}
+                    <div class="testimonials">
+                          <blockquote><p>{{review.message}}</p></blockquote>
+                          <div class="carousel-info">
+                            <img alt="" src="{{review.image}}" class="pull-left">
+                            <div class="pull-left">
+                              <span class="testimonials-name">{{review.name}}</span>
+                              <span class="testimonials-post">{{review.website}}</span>
+                            </div>
+                          </div>
+                    </div>
+		        {% endfor %}
+		</section>	
+        <section></section>
+			
 		</div><!-- /container -->
 		<script src="/js/classie.js"></script>
 		<script src="/js/stepsForm.js"></script>
 		<script src="/js/modernizer.js"></script>
         <script src="/js/jQuery.js"></script>
-		<script>
-          
-</script>
 	</body>
 </html>
