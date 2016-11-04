@@ -4,7 +4,7 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #D33F49;
+	background: $brand-color;
     color: rgba(255, 255, 255, 0.45);
 	font-size: 100%;
 	line-height: 1.25;
@@ -88,7 +88,7 @@ a:hover, a:focus {
 
 section {
 	padding: 5em 2em 2em;
-	background: #D33F49;
+	background: $brand-color;
 	text-align: center;
 }
 
@@ -165,7 +165,7 @@ section {
 	content: " "; 
 	display: block; 
 	position: absolute;
-    border-bottom: 20px solid #d33f49;    
+    border-bottom: 20px solid #4a177f;    
 	border-right: 0 solid transparent;
 	border-left: 20px solid transparent;
 	border-left-style: inset; /*FF fixes*/
