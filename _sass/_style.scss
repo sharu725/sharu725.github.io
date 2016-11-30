@@ -215,3 +215,29 @@ section {
     .pull-left {
         float: left;
     }
+
+
+/* Fab button */
+
+  .fab {
+        position: fixed;
+        right: 1%;
+        bottom: 1%;
+        border:none;
+        font-size: 1.5em;
+        color: white;
+        background-color: #2d2d2d;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        -webkit-box-shadow: 2px 3px 3px 0px rgba(41, 41, 41, .3);
+        -moz-box-shadow: 2px 3px 3px 0px rgba(41, 41, 41, .3);
+        box-shadow: 2px 3px 3px 0px rgba(41, 41, 41, .3);
+        outline: none;
+        }
+
+        .fab:hover {
+            background-color: #f5f5f5;
+            color: #e44075
+        }
