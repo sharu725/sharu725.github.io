@@ -9,7 +9,7 @@ layout: compress
     <script src="/js/jquery.min.js"></script>
     <link rel="stylesheet" href="/css/google-places.css">
     <script src="/js/google-places.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places?key=AIzaSyC-usBrLm4Z9_hNRsgOs4oKLshWgnBcy3w"></script>
      <link href="//fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -27,7 +27,16 @@ layout: compress
             {% include color-bar.html %}
       </footer>
     </section>
-    <script src="/js/reviews.js"></script>
+    <script>
+     $(document).ready(function() {
+      $("#google-reviews").googlePlaces({
+          placeId: 'ChIJx113w8QUuzsR_3IiWBPrucE'
+        , render: ['reviews']
+        , min_rating: 4
+        , max_rows:5
+      });
+    });
+    </script>
 
 </body>
 </html>
