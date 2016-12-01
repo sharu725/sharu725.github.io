@@ -1,0 +1,116 @@
+.review-stars ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.review-stars ul li {
+  float: left;
+  margin-right: 5px;
+}
+
+.review-stars ul li i {
+  color: #E4B248;
+  font-size: 18px;
+  font-style: normal;  
+}
+
+.review-stars ul li i.inactive {
+  color: #c6c6c6;
+}
+.star:after {
+  content: "\2605";
+}
+body {
+    color: #333;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    margin: 10px;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 65px;
+    font-weight: normal;
+}
+.main-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.review-item {
+    box-shadow: 0 0 2px #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.review-meta {
+    font-weight: bold;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.write-review {
+    border: 1px solid #0a5;
+    background: #0a5;
+    color: #fff;
+    padding: 13px 36px;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.site-footer-review {
+    padding: 30px 0;
+}
+
+
+
+.color-bars-header {
+    text-align: right;
+}
+
+.cor-head {
+    width: 5%;
+    height: 5px;
+    display: inline-block;
+    
+}
+
+.color-bars{
+    margin: 0 -1em 0 -1em;
+}
+
+.cor {
+    width: 25%;
+    height: 4px;
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+.colr-1{
+background-color: #3498db;
+}
+.colr-2{
+background-color: #f1c40f;
+}
+.colr-3{
+background-color: #2ecc71;
+}
+.colr-4{
+background-color: #e74c3c;
+}
+.colr-5{
+background-color: #9b59b6;
+}
+.colr-6{
+background-color: #1abc9c;
+}
+.colr-7{
+background-color: #e67e22;
+}
+.colr-8{
+background-color: #34495e;
+}
+

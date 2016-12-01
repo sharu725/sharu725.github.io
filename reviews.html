@@ -1,0 +1,33 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reviews</title>
+    <script src="/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/google-places.css">
+    <script src="/js/google-places.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+     <link href="//fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
+</head>
+<body>
+  
+    <section class="main-content">
+     <header>
+      <h2>Reviews</h2>
+      </header>
+      <div id="google-reviews"></div>
+
+      <footer class="site-footer-review">
+           <a href="{{site.review.short-link}}">
+            <button class="write-review">Write a review</button>
+            </a>
+            {% include color-bar.html %}
+      </footer>
+    </section>
+    <script src="/js/reviews.js"></script>
+
+</body>
+</html>
