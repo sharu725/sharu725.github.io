@@ -302,4 +302,8 @@
     top: 10px;
     left: 10px;
     z-index: 999;
+    opacity: 0.7;
+    &:hover {
+        opacity: 0.9;
+    }
 }
