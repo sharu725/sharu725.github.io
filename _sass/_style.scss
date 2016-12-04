@@ -180,7 +180,7 @@ section {
 	content: " "; 
 	display: block; 
 	position: absolute;
-    border-bottom: 20px solid #4a177f;    
+    border-bottom: 20px solid $brand-color;    
 	border-right: 0 solid transparent;
 	border-left: 20px solid transparent;
 	border-left-style: inset; /*FF fixes*/
