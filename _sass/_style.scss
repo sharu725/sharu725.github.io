@@ -4,12 +4,26 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: $brand-color;
     color: rgba(255, 255, 255, 0.45);
 	font-size: 100%;
 	line-height: 1.25;
 	font-family: 'Lato', Arial, sans-serif;
+    padding:  0 40px 40px 40px;
+    box-shadow: 0 0 4px #777;
+    @include media-query($on-palm) {
+        padding: 0;
+    }
 }
+
+.container {
+    	background: $brand-color;
+        padding: 20px;
+        box-shadow: 0 0 10px #bbb;
+        @include media-query($on-palm) {
+        padding: 0;
+    }
+}
+
 
 a {
 	color: rgba(0,0,0,0.25);
