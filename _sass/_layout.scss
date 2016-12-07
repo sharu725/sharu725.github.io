@@ -1,8 +1,8 @@
 
-   *{
-    -webkit-transition: all 0.2s; /* Safari */
+* {
+    -webkit-transition: all 0.3s; /* Safari */
     -webkit-transition-timing-function: linear; /* Safari */
-    transition: all 0.2s;
+    transition: all 0.3s;
     transition-timing-function: linear;
       }
 
@@ -279,12 +279,15 @@
     top: 50%;
     text-align: center;
     width: 100%;
+    font-size: 52px;
     &:hover{
         color: #333;
     }
     
        @include media-query($on-palm) {
             top: 30%;
+            font-size: 40px;
+           margin: 0;
     }
     
 }
