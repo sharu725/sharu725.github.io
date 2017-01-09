@@ -184,7 +184,7 @@ section {
 	border-right: 0 solid transparent;
 	border-left: 20px solid transparent;
 	border-left-style: inset; /*FF fixes*/
-	border-bottom-style: inset; /*FF fixes*/
+/* 	border-bottom-style: inset; FF fixes */
 }
 .testimonials blockquote::after {
     width: 0;
