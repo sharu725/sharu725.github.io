@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { content: ''; display: table; }
 .clearfix:after { clear: both; }
@@ -7,7 +7,7 @@ body {
     color: rgba(255, 255, 255, 0.45);
 	font-size: 100%;
 	line-height: 1.25;
-	font-family: 'Lato', Arial, sans-serif;
+	font-family: $base-font-family;
     padding:  0 40px 40px 40px;
     box-shadow: 0 0 4px #777;
     background-color: $background-color;
@@ -171,6 +171,9 @@ section {
     line-height: 20px;
     padding: 15px;
     position: relative;
+    @include media-query($on-palm) {
+        margin: 0;
+    }
 }
 .testimonials blockquote::before {
     width: 0; 
@@ -210,6 +213,14 @@ section {
     overflow: hidden;
     float: left;
     padding-left: 40px;
+    position: relative;
+    top: -30px;
+    left: -13px;
+    @include media-query($on-palm) {
+        top: -24px;
+        left: -50px;
+    }
+    
 }
 .testimonials .carousel-info img {
     margin-right: 15px;
@@ -227,10 +238,13 @@ section {
     color: rgba(255,255,255,0.45);
     font-size: 13px;
 }
-    .pull-left {
+.pull-left {
         float: left;
     }
 
+.text-left {
+        text-align: left;
+    }
 
 /* Fab button */
 

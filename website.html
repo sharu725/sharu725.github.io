@@ -71,16 +71,17 @@ description: Do you want a website? Let me know your requirements.
 			
 
               {% for review in site.data.reviews %}
-                    <div class="testimonials">
+                    <div class="testimonials clearfix">
                           <blockquote><p>{{review.message}}</p></blockquote>
-                          <div class="carousel-info">
-                            <img alt="" src="{{review.image}}" class="pull-left">
+                          <div class="carousel-info text-left">
+                            <img alt="webjeda webdesigner review" src="{{review.image}}" class="pull-left">
                             <div class="pull-left">
                               <span class="testimonials-name">{{review.name}}</span>
                               <span class="testimonials-post">{{review.website}}</span>
-                            </div>
+                            </div>                           
                           </div>
                     </div>
+ 
 		        {% endfor %}
 		</section>	
         <div style="clear:both; height: 4em"></div>
