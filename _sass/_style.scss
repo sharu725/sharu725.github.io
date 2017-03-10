@@ -9,7 +9,6 @@ body {
 	line-height: 1.25;
 	font-family: $base-font-family;
     padding:  0 40px 40px 40px;
-    box-shadow: 0 0 4px #777;
     background-color: $background-color;
     @include media-query($on-palm) {
         padding: 0;
