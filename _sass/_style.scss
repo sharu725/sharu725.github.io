@@ -48,6 +48,9 @@ a:hover, a:focus {
 	font-weight: 600;
 	font-size: 4em;
     color: rgba(255, 255, 255, 0.45);
+    @include media-query($on-palm) {
+        font-size: 2.5em;
+    }
 }
 
 .codrops-header h1 span {
