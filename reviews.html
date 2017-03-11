@@ -9,11 +9,7 @@ layout: compress
     <meta name="description" content="Find Google reviews of webjeda here. Webjeda strives to provide high quality services which in turn gets good feedbacks.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="/js/jquery.min.js"></script>
     <link rel="stylesheet" href="/css/google-places.css">
-    <script src="/js/google-places.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-usBrLm4Z9_hNRsgOs4oKLshWgnBcy3w&libraries=places"></script>
-     <link href="//fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
 </head>
 <body>
   
@@ -30,6 +26,12 @@ layout: compress
             {% include color-bar.html %}
       </footer>
     </section>
+    
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/google-places.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-usBrLm4Z9_hNRsgOs4oKLshWgnBcy3w&libraries=places"></script>
+    
+    
     <script>
      $(document).ready(function() {
       $("#google-reviews").googlePlaces({
