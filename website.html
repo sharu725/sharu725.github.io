@@ -11,10 +11,8 @@ description: Do you want a website? Let me know your requirements.
         <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
         <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 		<link rel="shortcut icon" href="/favicon.ico">
-		<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
-		<link rel="stylesheet" type="text/css" href="/css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
+		<script src="/js/modernizr.custom.js"></script>
         
 	</head>
 	<body>
