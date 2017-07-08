@@ -7,7 +7,7 @@
       }
 
 
-
+/* 
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -90,12 +90,12 @@
     }
 }
 
-
+ */
 
 /**
  * Site footer
  */
-.site-footer {
+/* .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
@@ -159,12 +159,11 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
-
-/**
- * Page content
  */
+
+
+/* *
+ * Page content
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -194,9 +193,8 @@
 
 
 
-/**
+*
  * Posts
- */
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -239,7 +237,7 @@
     }
 }
 
-
+ */
 
 .right {
     background-color: #ff3542;
@@ -292,15 +290,15 @@
     
 }
 
-.website-page {
+/* .website-page {
     height: 100%;
     width: 100%;
     background: #2F9E68;
    
         
-}
+} */
 
-.site-header {
+/* .site-header {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -310,3 +308,4 @@
         opacity: 0.9;
     }
 }
+ */

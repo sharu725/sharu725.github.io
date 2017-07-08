@@ -1,6 +1,7 @@
 html, 
 body {
     height: 100%;
+    opacity: 0.9;
 }
 
 /**
@@ -39,33 +40,32 @@ ul, ol, dl, figure,
 
 
 
-/**
+/* *
  * Images
- */
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
-
+ */
 
 /**
  * Figures
  */
-figure > img {
+/* figure > img {
     display: block;
 }
 
 figcaption {
     font-size: $small-font-size;
 }
-
+ */
 
 
 /**
  * Lists
  */
-ul, ol {
+/* ul, ol {
     margin-left: $spacing-unit;
 }
 
@@ -76,7 +76,7 @@ li {
     }
 }
 
-
+ */
 
 /**
  * Headings
@@ -109,7 +109,7 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
+/* blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
@@ -122,12 +122,12 @@ blockquote {
     }
 }
 
-
+ */
 
 /**
  * Code formatting
  */
-pre,
+/* pre,
 code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
@@ -150,12 +150,12 @@ pre {
     }
 }
 
-
+ */
 
 /**
  * Wrapper
  */
-.wrapper {
+/* .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -172,12 +172,12 @@ pre {
     }
 }
 
-
+ */
 
 /**
  * Clearfix
  */
-%clearfix {
+/* %clearfix {
 
     &:after {
         content: "";
@@ -186,3 +186,4 @@ pre {
     }
 }
 
+ */
