@@ -36,3 +36,6 @@ compress_html:
 review: 
   link: http://search.google.com/local/writereview?placeid=ChIJx113w8QUuzsR_3IiWBPrucE
   short-link: https://goo.gl/fAcxe9
+  
+gems: 
+    - jekyll-seo-tag
