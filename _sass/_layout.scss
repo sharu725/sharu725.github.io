@@ -48,9 +48,7 @@
     text-align: center;
     width: 100%;
     font-size: 60px;
-    &:hover{
-        color: #2f2f2f;
-    }
+
     
        @include media-query($on-palm) {
             top: 30%;
@@ -58,6 +56,12 @@
            margin: 0;
     }
     
+}
+
+a .main-text {
+        &:hover{
+        color: #2f2f2f;
+    }
 }
 
 .form {
