@@ -39,7 +39,7 @@
 
 .main-text {
 /*     font-family: 'Alfa Slab One', Helvetica, Arial, sans-serif; */
-    font-family: monospace;
+    font-family: "Lucida Console", "Courier New", Courier, Monaco, monospace;
     font-weight: bold;
     letter-spacing: -1px;
     text-rendering: optimizelegibility;
@@ -87,7 +87,7 @@ a .main-text {
 
     input, textarea {
         font-size: $base-font-size * 0.7;
-        font-family: monospace;
+        font-family: "Lucida Console", "Courier New", Courier, Monaco, monospace;
         border:none;
         color: #fcfcfc;
         border-bottom: 1px solid #fcfcfc;
