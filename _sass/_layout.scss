@@ -39,9 +39,9 @@
 
 .main-text {
 /*     font-family: 'Alfa Slab One', Helvetica, Arial, sans-serif; */
-    font-family: "Lucida Console", "Courier New", Courier, Monaco, monospace;
+    font-family: $base-font-family;
     font-weight: bold;
-    letter-spacing: -1px;
+/*     letter-spacing: -1px; */
     text-rendering: optimizelegibility;
     position: absolute;
     top: 50%;
@@ -58,8 +58,9 @@
     
 }
 
-a .main-text {
+a .main-text, a .review-link {
     text-decoration: none;
+    color: #fcfcfc;
         &:hover{
         color: #2f2f2f;
     }
@@ -87,8 +88,8 @@ a .main-text {
     }
 
     input, textarea {
-        font-size: $base-font-size * 0.7;
-        font-family: "Lucida Console", "Courier New", Courier, Monaco, monospace;
+        font-size: $base-font-size * 0.8;
+        font-family: $base-font-family;
         border:none;
         color: #fcfcfc;
         border-bottom: 1px solid #fcfcfc;
@@ -111,6 +112,7 @@ a .main-text {
 
     
     input[type="submit"] {
+        font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
         padding: 10px 15px;
         font-size: $base-font-size * 0.8;
         border: 1px solid #fcfcfc;
@@ -122,3 +124,10 @@ a .main-text {
     }
 }
 
+
+.review-link {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    opacity: 0.8;
+}
