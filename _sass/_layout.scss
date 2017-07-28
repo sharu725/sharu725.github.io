@@ -47,7 +47,7 @@
     top: 50%;
     text-align: center;
     width: 100%;
-    font-size: 60px;
+    font-size: 70px;
 
     
        @include media-query($on-palm) {
@@ -129,5 +129,5 @@ a .main-text, a .review-link {
     position: absolute;
     top: 5%;
     right: 5%;
-    opacity: 0.8;
+    opacity: 0.9;
 }
