@@ -37,5 +37,9 @@ review:
   link: http://search.google.com/local/writereview?placeid=ChIJx113w8QUuzsR_3IiWBPrucE
   short-link: https://goo.gl/fAcxe9
   
+response:
+    form: https://docs.google.com/forms/d/e/1FAIpQLSfmSZif4GDstMLnMKc35fVDJ9SoHDkmMUhr-_0fvVZBH4TKyw/viewform?usp=sf_link#responses
+    spreadsheet: https://docs.google.com/spreadsheets/d/1hro6nLvSeY_9Xb8QMicFDz2Ju9q38xcB2FhF8XjMl3s/edit#gid=877421763
+
 gems: 
     - jekyll-seo-tag
