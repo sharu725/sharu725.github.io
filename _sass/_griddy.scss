@@ -7,33 +7,29 @@
       }
 
 
-.griddy {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-    @include media-query($on-palm) {
-         grid-template-columns: 1fr;
-    }
+.item {
+    
 }
 
-
-.item {
-      @include media-query($on-palm) {
-            min-height: 50vh;
-    }
+.left-col, right-col {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    
+    
 }
 
 
 .left-col {
     background-color: #358abd;
-    
+    @include media-query($on-palm) {
+        
+    }    
 }
 
 .main-text-col {
-/*     font-family: 'Alfa Slab One', Helvetica, Arial, sans-serif; */
     font-family: $base-font-family;
     font-weight: bold;
-/*     letter-spacing: -1px; */
     text-rendering: optimizelegibility;
     text-align: center;
     position: relative;
@@ -121,8 +117,3 @@ a .main-text-col, a .review-link {
 
 
 
-.review-link {
-    position: absolute;
-    top: 5%;
-    right: 5%;
-}
