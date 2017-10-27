@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contact.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/reviews.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/fonts/icomoon/icomoon/demo.html</loc>
+<lastmod>2017-10-26T22:14:02+05:30</lastmod>
+</url>
+</urlset>
