@@ -1,3 +1,13 @@
 #wj-header h1  span {
     color: $brand-primary;
 }
+#page {
+    background-image: url(/images/spider-web.svg);
+    background-repeat: no-repeat;
+    @include media-query($on-palm) {
+        background-image: none;
+    }
+}
+.wj-nav {
+    background: transparent;
+}
