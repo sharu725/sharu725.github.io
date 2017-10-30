@@ -1489,7 +1489,7 @@ input[type="text"] {
    margin: 0 !important;
 }
 
-.wj-loader {
+.js .wj-loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
@@ -1497,6 +1497,10 @@ input[type="text"] {
 	height: 100%;
 	z-index: 9999;
 	background: url(../images/loader.gif) center no-repeat #fff;
+}
+
+.no-js .wj-loader {
+    display: none;
 }
 
 .animate-box {
