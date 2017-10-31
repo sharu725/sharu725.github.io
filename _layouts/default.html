@@ -8,7 +8,14 @@ layout: compress
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="webjeda" />
-
+     <!-- Prefetch DNS -->  
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+   
+   
     {% seo %}
 
     <!-- Favicon -->
@@ -169,10 +176,11 @@ layout: compress
 	<script src="/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
 	<script src="/js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="/js/jquery.flexslider-min.js"></script>
-	<!-- Main -->
+		<!-- Main -->
 	<script src="/js/main.min.js"></script>
+	<!-- Flexslider -->
+	<script defer src="/js/jquery.flexslider-min.js"></script>
+
    
     {% include analytics.html %}
 	</body>
