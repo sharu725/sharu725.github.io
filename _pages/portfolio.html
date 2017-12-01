@@ -1,6 +1,42 @@
 ---
 layout: default
 permalink: /portfolio.html
+portfolio:
+   - name: SolveCyberBullying
+     link: http://solvecyberbullying.com
+     image: solvecyberbullying-jekyll-website-screenshot.png
+     
+   - name: TrainWithKesh
+     link: https://trainwithkesh.com/
+     image: trainwithkesh-jekyll-website.png
+     
+   - name: CloudYuga
+     link: https://nallikayi.com/
+     image: cloudyuga-jekyll-website.png
+     
+   - name: Nallikayi
+     link: http://solvecyberbullying.com
+     image: nallikayi-kannada-podcast.jpg
+     
+   - name: Jekyll Themes
+     link: https://jekyll-themes.com/
+     image: jekyll-themes-jekyll-templates.png
+     
+   - name: Avocado
+     link: https://avocado.jekyll-themes.com/
+     image: avocado-jekyll-themes-premium-jekyll-theme.png
+     
+   - name: FruitTreat
+     link: https://fruittreat.com/
+     image: fruittreat.png
+     
+   - name: UnboundPrep
+     link: https://unboundprep.com/
+     image: unboundprep.png
+     
+   - name: Hagura
+     link: http://webjeda.com/hagura/
+     image: hagura-jekyll-theme-screenshot.png
 ---
 
 	<div id="wj-portfolio">
@@ -12,97 +48,21 @@ permalink: /portfolio.html
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+			{% for item in page.portfolio %}
+            <div class="col-md-4">
 					<div class="wj-portfolio animate-box">
-						<a href="http://solvecyberbullying.com" target="_blank" rel="noreferrer noopener">
-							<div class="portfolio-entry" style="background-image: url(/images/solvecyberbullying-jekyll-website-screenshot.png);"></div>
+						<a href="{{item.link}}" target="_blank" rel="nofollow noreferrer noopener">
+							<div class="portfolio-entry" style="background-image: url(/images/{{item.image}});"></div>
 							<div class="portfolio-text">
-								<h3>SolveCyberBullying</h3>
+								<h3>{{item.name}}</h3>
 								<ul class="stuff">
-									<li><i class="icon-globe2"> </i>http://solvecyberbullying.com</li>
+									<li><i class="icon-globe2"> </i>{{item.link}}</li>
 								</ul>
 							</div> 
 						</a>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="wj-portfolio animate-box">
-						<a href="https://trainwithkesh.com/" target="_blank" rel="noreferrer noopener">
-							<div class="portfolio-entry" style="background-image: url(/images/trainwithkesh-jekyll-website.png);"></div>
-							<div class="portfolio-text">
-								<h3>TrainWithKesh</h3>
-								<ul class="stuff">
-									<li><i class="icon-globe2"> </i>https://trainwithkesh.com/</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="wj-portfolio animate-box">
-						<a href="https://cloudyuga.guru/" target="_blank" rel="noreferrer noopener">
-							<div class="portfolio-entry" style="background-image: url(/images/cloudyuga-jekyll-website.png);"></div>
-							<div class="portfolio-text">
-								<h3>CloudYuga</h3>
-								<ul class="stuff">
-									<li><i class="icon-globe2"> </i>https://cloudyuga.guru/</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="wj-portfolio animate-box">
-						<a href="https://nallikayi.com/" target="_blank" rel="noreferrer noopener">
-							<div class="portfolio-entry" style="background-image: url(/images/nallikayi-kannada-podcast.jpg);"></div>
-							<div class="portfolio-text">
-								<h3>Nallikayi</h3>
-								<ul class="stuff">
-		                            <li><i class="icon-globe2"> </i>https://nallikayi.com/</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="wj-portfolio animate-box">
-						<a href="https://jekyll-themes.com/" target="_blank" rel="noreferrer noopener">
-							<div class="portfolio-entry" style="background-image: url(/images/jekyll-themes-jekyll-templates.png);"></div>
-							<div class="portfolio-text">
-								<h3>Jekyll Themes</h3>
-								<ul class="stuff">
-                                    <li><i class="icon-globe2"> </i>https://jekyll-themes.com/</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="wj-portfolio animate-box">
-						<a href="https://avocado.jekyll-themes.com/" target="_blank" rel="noreferrer noopener">
-							<div class="portfolio-entry" style="background-image: url(/images/avocado-jekyll-themes-premium-jekyll-theme.png);"></div>
-							<div class="portfolio-text">
-								<h3>Avocado</h3>
-								<ul class="stuff">
-                                     <li><i class="icon-globe2"> </i>https://avocado.jekyll-themes.com/</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="wj-portfolio animate-box">
-						<a href="https://fruittreat.com/" target="_blank" rel="noreferrer noopener">
-							<div class="portfolio-entry" style="background-image: url(/images/fruittreat.png);"></div>
-							<div class="portfolio-text">
-								<h3>FruitTreat</h3>
-								<ul class="stuff">
-                                     <li><i class="icon-globe2"> </i>https://fruittreat.com/</li>
-								</ul>
-							</div> 
-						</a>
-					</div>
-				</div>
+			{% endfor %}
 			</div>
 		</div>
 	</div>
