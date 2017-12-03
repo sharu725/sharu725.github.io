@@ -43,8 +43,12 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-  
-review: 
+ 
+ 
+sass:
+ style: compressed
+ 
+ review: 
   link: http://search.google.com/local/writereview?placeid=ChIJx113w8QUuzsR_3IiWBPrucE
   short-link: https://goo.gl/fAcxe9
 
