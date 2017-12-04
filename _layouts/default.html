@@ -25,7 +25,12 @@ layout: compress
     <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-ipad-retina-152x152.png">
 
     
-    <link rel="stylesheet" href="/css/googlefonts.css">
+    <style>
+          {% capture include_to_scssify %}
+          {% include googlefonts.scss %}
+          {% endcapture %}
+          {{ include_to_scssify | scssify }}
+   </style>
     
 	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
 	<!-- <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> -->
