@@ -1,42 +1,6 @@
 ---
 layout: default
 permalink: /portfolio.html
-portfolio:
-   - name: SolveCyberBullying
-     link: http://solvecyberbullying.com
-     image: solvecyberbullying-jekyll-website-screenshot.png
-     
-   - name: TrainWithKesh
-     link: https://trainwithkesh.com/
-     image: trainwithkesh-jekyll-website.png
-     
-   - name: CloudYuga
-     link: https://cloudyuga.guru/
-     image: cloudyuga-jekyll-website.png
-     
-   - name: Nallikayi
-     link: http://nallikayi.com
-     image: nallikayi-kannada-podcast.jpg
-     
-   - name: Jekyll Themes
-     link: https://jekyll-themes.com/
-     image: jekyll-themes-jekyll-templates.png
-     
-   - name: Avocado
-     link: https://avocado.jekyll-themes.com/
-     image: avocado-jekyll-themes-premium-jekyll-theme.png
-     
-   - name: FruitTreat
-     link: https://fruittreat.com/
-     image: fruittreat.png
-     
-   - name: UnboundPrep
-     link: https://unboundprep.com/
-     image: unboundprep.png
-     
-   - name: Hagura
-     link: http://webjeda.com/hagura/
-     image: hagura-jekyll-theme-screenshot.png
 ---
 
 	<div id="wj-portfolio">
@@ -48,7 +12,7 @@ portfolio:
 				</div>
 			</div>
 			<div class="row">
-			{% for item in page.portfolio %}
+			{% for item in site.data.data.portfolio %}
             <div class="col-md-4">
 					<div class="wj-portfolio animate-box">
 						<a href="{{item.link}}" target="_blank" rel="nofollow noreferrer noopener">

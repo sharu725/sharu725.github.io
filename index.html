@@ -131,7 +131,7 @@ image: /images/webjeda-logo-big.jpg
                         <h3>Fast and reliable, he ships on time with a great accuracy.</h3>
                         <p> The website looks very professional, polished and clean. He mixed HTML, CSS and Markdown code in a seamless way: they all appear as a whole without interruptions. It’s very fast so that many website builders are astonished of the results. </p>
                         <span>Ivan Ferrero</span><br>
-                        <small>CEO, Founder <a href="http://solvecyberbullying.com/" target="_blank" rel="nofollow">SCB</a></small>
+                        <small>CEO, Founder, SCB</small>
                     </div>
                 </div>
                 <div class="col-md-7 animate-box">
@@ -165,51 +165,23 @@ image: /images/webjeda-logo-big.jpg
                     <aside id="wj-hero">
                     <div class="flexslider">
                         <ul class="slides">
-                           <li style="background-image: url(/images/krishna-jekyll-theme.png);">
+                        {% for item in site.data.data.themes %}
+                           <li style="background-image: url({{item.image}});">
                                <div class="overlay-gradient"></div>
                                <div class="container-fluid">
                                    <div class="row">
                                        <div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
                                            <div class="slider-text-inner">
                                                <div class="desc">
-                                                    <h2>Krishna a Minimal Jekyll Theme</h2>
-                                                    <p>Krishna is a minimal Jekyll theme suitable for code based blogs and project showcase. It features a modern menubar with a pleasing typography.</p>
+                                                    <h2>{{item.title}}</h2>
+                                                    <p>{{item.description}}</p>
                                                </div>
                                            </div>
                                        </div>
                                    </div>
                                </div>
                            </li>
-                           <li style="background-image: url(/images/ashwathama-jekyll-theme.png);">
-                               <div class="overlay-gradient"></div>
-                               <div class="container-fluid">
-                                   <div class="row">
-                                       <div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
-                                           <div class="slider-text-inner">
-                                               <div class="desc">
-                                                    <h2>Ashwathama an App Like Jekyll Theme</h2>
-                                                    <p>Ashwathama is a clean, minimal, app like design is more comfortable to use on a mobile browser. It looks real nice on desktop as well. It is designed keeping smartphone users in mind.</p>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </li>
-                           <li style="background-image: url(/images/krishna-jekyll-theme.jpg);">
-                               <div class="overlay-gradient"></div>
-                               <div class="container-fluid">
-                                   <div class="row">
-                                       <div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
-                                           <div class="slider-text-inner">
-                                               <div class="desc">
-                                                    <h2>Karna a Grid Theme</h2>
-                                                    <p>Karna is a theme with a nice grid layout consisting of cards. The theme is responsive and superfast.</p>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </li>               
+                           {% endfor %}            
                           </ul>
                       </div>
                 </aside>
@@ -227,52 +199,23 @@ image: /images/webjeda-logo-big.jpg
                 </div>
             </div>
             <div class="row">
+               {% for item in site.data.data.blog %}
                 <div class="col-md-4">
                     <div class="wj-blog animate-box">
-                        <a href="https://blog.webjeda.com/google-form-customize/" class="blog-bg" style="background-image: url(/images/customize-google-forms.png);"></a>
+                        <a href="{{item.link}}" class="blog-bg" style="background-image: url({{item.image}});"></a>
                         <div class="blog-text">
-                            <span class="posted_on">Jul. 09th 2017</span>
-                            <h3><a href="https://blog.webjeda.com/google-form-customize/">Google Form Customization For Static Websites!</a></h3>
-                            <p>Google Form customization is done to remove the branding that is present at the end of Google Forms. This way we can have our own style for a form. We can also use these forms on static websites!</p>
+                            <span class="posted_on">{{item.date}}</span>
+                            <h3><a href="{{item.link}}">{{item.title}}</a></h3>
+                            <p>{{item.description}}</p>
                             <ul class="stuff">
                                 <!-- <li><i class="icon-heart2"></i>249</li> -->
-                                <li><i class="icon-eye2"></i>1,502</li>
-                                <li><a href="https://blog.webjeda.com/google-form-customize/" target="_blank">Read More<i class="icon-arrow-right22"></i></a></li>
+                                <li><i class="icon-eye2"></i>{{item.views}}</li>
+                                <li><a href="{{item.link}}" target="_blank">Read More<i class="icon-arrow-right22"></i></a></li>
                             </ul>
                         </div> 
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="wj-blog animate-box">
-                        <a href="https://blog.webjeda.com/why-jekyll-over-wordpress/" class="blog-bg" style="background-image: url(/images/why-jekyll-over-wordpress.png);"></a>
-                        <div class="blog-text">
-                            <span class="posted_on">Jul. 15th 2016</span>
-                            <h3><a href="https://blog.webjeda.com/why-jekyll-over-wordpress/" target="_blank">Why I Chose Jekyll Over WordPress?!</a></h3>
-                            <p>Jekyll will be taking over a significant share among all the blogging platforms. I chose Jekyll over WordPress! There are reasons why I made this choice and I have tried to put them before you.</p>
-                            <ul class="stuff">
-                                <!-- <li><i class="icon-heart2"></i>249</li> -->
-                                <li><i class="icon-eye2"></i>1,860</li>
-                                <li><a href="https://blog.webjeda.com/why-jekyll-over-wordpress/" target="_blank">Read More<i class="icon-arrow-right22"></i></a></li>
-                            </ul>
-                        </div> 
-                        
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="wj-blog animate-box">
-                        <a href="https://blog.webjeda.com/optimize-jekyll-seo/" class="blog-bg" style="background-image: url(/images/Jekyll-SEO.png);"></a>
-                        <div class="blog-text">
-                            <span class="posted_on">Mar. 18th 2016</span>
-                            <h3><a href="https://blog.webjeda.com/optimize-jekyll-seo/" target="_blank">10 Must Do Jekyll SEO Optimizations</a></h3>
-                            <p>Jekyll SEO (Search Engine Optimization) is something I struggled hard to figure out since I moved from WordPress. Eventually, I found out that we can do a lot of things using liquid syntax.</p>
-                            <ul class="stuff">
-                                <!-- <li><i class="icon-heart2"></i>249</li> -->
-                                <li><i class="icon-eye2"></i>3,279</li>
-                                <li><a href="https://blog.webjeda.com/optimize-jekyll-seo/" target="_blank">Read More<i class="icon-arrow-right22"></i></a></li>
-                            </ul>
-                        </div> 
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
