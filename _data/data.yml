@@ -35,11 +35,15 @@ blog:
       views: 4088
       date: Mar. 18th 2016
     
-portfolio:
+portfolio: #images 400x400
 
+   - name: Express Coffee India
+     link: https://expresscoffeeindia.com/
+     image: expresscoffeeindia-jekyll-website.png 
+     
    - name: TrainWithKesh
      link: https://trainwithkesh.com/
-     image: trainwithkesh-jekyll-website.png
+     image: trainwithkesh-jekyll-website.png 
      
    - name: CloudYuga
      link: https://cloudyuga.guru/
