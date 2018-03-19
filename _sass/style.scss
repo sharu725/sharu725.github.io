@@ -724,6 +724,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .wj-heading {
 	margin-bottom: 5em;
+    
+    @include media-query($on-palm) {
+        margin-bottom: 1em;    
+    }
+    
 	&.wj-heading-sm {
 		margin-bottom: 2em;
 	}
@@ -921,7 +926,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 			height: 400px;
 		}
 	}
-	.portfolio-text{
+	.portfolio-text {
 		width: 100%;
 		float: left;
 		padding: 20px;
@@ -939,7 +944,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 					margin-left: 0;
 				}
 				&:last-child{
-					float: right;
+					/* float: right; */
 				}
 				i{
 					font-size: 14px;

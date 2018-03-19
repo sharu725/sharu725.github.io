@@ -23,113 +23,102 @@ permalink: /about.html
  <div id="wj-features">
 		<div class="container">
 			<div class="services-padding">
-				<div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center wj-heading">
+				<div class="r">
+               <div class="c-4"></div>
+                <div class="c-4 col-md-offset-2 text-center wj-heading">
 				    <h2>What do we do?</h2>
                     </div>
-					<div class="col-md-6 animate-box">
+                    <div class="c-4"></div>
+                    {% for item in site.data.data.about %}
+					<div class="c-6 animate-box">
 				        <div class="feature-left">
 							<span class="icon">
-								<i class="icon-pencil"></i>
+								<i class="{{item.icon}}"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Design & Development</h3>
-								<p>We design responsive, functional and superfast websites.</p>
-								<p>Web designing is moving from desktop to smartphones. We keep User Experience in mind while creating websites. A website should load quick and shoulod be accessible even on a small view-port and slow internet connection.</p>
-								<p>Modern website are all about minimalism. We keep what is necessary and leave everything else, making a website content oriented.</p>
+								<h3>{{item.title}}</h3>
+								{{item.description}}
 							</div>
 						</div>
 					</div>
-
-					<div class="col-md-6 animate-box">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-search"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Search Engine</h3>
-								<p>We optimize your website for search engines.</p>
-								<p>Organic traffic is the best kind of traffic you can get. SEO optimization involves a lot of advanced changes like SSL, AMP pages, Schema. </p>
-								<p>It is a constant processs which changes with time. As the rules change we will adopt to it provide the best for our customers.</p>
-							</div>
-						</div>
-
-					</div>
+                    {% endfor %}
+					
+					
 					
                 </div>
-                <div class="row">			    	
-					
-					<div class="col-md-6 animate-box">
-		
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-linegraph"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Marketing</h3>
-								<p>We perform digital marketing to reach more audience.</p>
-								<p>We help you reach a greater audience through Digital Marketing. It involoves Social Media Marketing, Email Marketing, Search Engine Marketing etc.</p>
-								<p>Digital Marketing helps to reach targeted customers in a short period of time.</p>
-							</div>
-						</div>
-					</div>
-			
+                <!-- <div class="row">			    	
+                                    
+                                    <div class="col-md-6 animate-box">
+                        
+                                        <div class="feature-left">
+                                            <span class="icon">
+                                                <i class="icon-linegraph"></i>
+                                            </span>
+                                            <div class="feature-copy">
+                                                <h3>Marketing</h3>
+                                                <p>We perform digital marketing to reach more audience.</p>
+                                                <p>We help you reach a greater audience through Digital Marketing. It involoves Social Media Marketing, Email Marketing, Search Engine Marketing etc.</p>
+                                                <p>Digital Marketing helps to reach targeted customers in a short period of time.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
                     <div class="col-md-6 animate-box">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-recycle"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>WordPress to Static</h3>
-								<p>We convert your WordPress site to a Static Site.</p>
-								<p>Static Sites are fast, user friendly and rank better on search engines. Static Sites will not use any database and hence making the website highly secure when compared to WordPress.</p>
-								<p>We might loose some features but we believe that static is the new dynamic.</p>
-							</div>
-						</div>
-					</div>
-					
-<!-- 					<div class="col-md-6 animate-box">
-					    <div class="feature-left">
-					        <span class="icon">
-					            <i class="icon-recycle"></i>
-					        </span>
-					        <div class="feature-copy">
-					            <h3>WordPress to Static</h3>
-					            <p>We convert your old WordPress site to a new static site.</p>
-					            <p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>
-					        </div>
-					    </div>
-					</div> -->
-            
-	            </div>
+                                        <div class="feature-left">
+                                            <span class="icon">
+                                                <i class="icon-recycle"></i>
+                                            </span>
+                                            <div class="feature-copy">
+                                                <h3>WordPress to Static</h3>
+                                                <p>We convert your WordPress site to a Static Site.</p>
+                                                <p>Static Sites are fast, user friendly and rank better on search engines. Static Sites will not use any database and hence making the website highly secure when compared to WordPress.</p>
+                                                <p>We might loose some features but we believe that static is the new dynamic.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                <div class="col-md-6 animate-box">
+                                        <div class="feature-left">
+                                            <span class="icon">
+                                                <i class="icon-recycle"></i>
+                                            </span>
+                                            <div class="feature-copy">
+                                                <h3>WordPress to Static</h3>
+                                                <p>We convert your old WordPress site to a new static site.</p>
+                                                <p><a href="#">Learn More <i class="icon-arrow-right22"></i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                </div> -->
 	            
-	            <div class="row">
-					<div class="col-md-6 animate-box">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-hotairballoon"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Build Themes</h3>
-								<p>We create clean, minimal and w3c compliant themes.</p>
-								<p>All out themes are coded clean, w3c compliant and highly customizable. We give out our themes for free so that users can have an inside look at our design and coding skills.</p>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-chat"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Support</h3>
-								<p>We provide 24x7 support to our customers.</p>
-								<p>Customer satisfaction is something we take gravely. We believe that there is no traffic jams along the extra mile.</p>
-							</div>
-						</div>
-					</div>
-				</div>
+	            <!-- <div class="row">
+	                                <div class="col-md-6 animate-box">
+	                                    <div class="feature-left">
+	                                        <span class="icon">
+	                                            <i class="icon-hotairballoon"></i>
+	                                        </span>
+	                                        <div class="feature-copy">
+	                                            <h3>Build Themes</h3>
+	                                            <p>We create clean, minimal and w3c compliant themes.</p>
+	                                            <p>All out themes are coded clean, w3c compliant and highly customizable. We give out our themes for free so that users can have an inside look at our design and coding skills.</p>
+	                                        </div>
+	                                    </div>
+	            
+	                                </div>
+	                                <div class="col-md-6 animate-box">
+	                                    <div class="feature-left">
+	                                        <span class="icon">
+	                                            <i class="icon-chat"></i>
+	                                        </span>
+	                                        <div class="feature-copy">
+	                                            <h3>Support</h3>
+	                                            <p>We provide 24x7 support to our customers.</p>
+	                                            <p>Customer satisfaction is something we take gravely. We believe that there is no traffic jams along the extra mile.</p>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div> -->
 			</div>
 		</div>
 	</div>
