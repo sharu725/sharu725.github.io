@@ -48,11 +48,11 @@ compress_html:
 sass:
  style: compressed
  
- review: 
+review: 
   link: http://search.google.com/local/writereview?placeid=ChIJx113w8QUuzsR_3IiWBPrucE
   short-link: https://goo.gl/fAcxe9
 
-
+review-link: 'https://www.google.com/search?q=Webjeda#lkt=LocalPoiReviews&lrd=0x3bbb14c4c3775dc7:0xc1b9eb13582272ff,3,5,,&trex=m_t:lcl_akp,rc_f:nav,rc_ludocids:13959446988327121663,rc_q:Webjeda,ru_q:Webjeda'
 
 
 plugins:
