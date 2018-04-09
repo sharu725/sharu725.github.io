@@ -60,11 +60,7 @@ portfolio: #images 400x400
    - name: Avocado
      link: https://avocado.jekyll-themes.com/
      image: avocado-jekyll-themes-premium-jekyll-theme.png
-     
-   - name: FruitTreat
-     link: https://fruittreat.com/
-     image: fruittreat.png
-     
+ 
    - name: UnboundPrep
      link: https://unboundprep.com/
      image: unboundprep.png
