@@ -68,6 +68,10 @@ portfolio: #images 400x400
    - name: Hagura
      link: http://webjeda.com/hagura/
      image: hagura-jekyll-theme-screenshot.png
+          
+   - name: Bitcoin Knowledge Podcast
+     link: https://bitcoin.kn
+     image: bitcoin-knowledge-screenshot.png
      
 
 about: 
