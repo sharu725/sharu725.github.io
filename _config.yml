@@ -3,8 +3,8 @@ description: WebJeda is a web designing company based in Bangalore. Designing be
 url: https://webjeda.com
 logo: /images/apple-touch-icon-ipad-retina-152x152.png
 
-contact: '/contact.html#wj-contact'
-learn-more: '/about.html#wj-features'
+contact: '/contact/#wj-contact'
+learn-more: '/about/#wj-features'
 
 
 github: https://github.com/sharu725
