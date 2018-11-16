@@ -43,12 +43,12 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
- 
- 
+
+
 sass:
  style: compressed
- 
-review: 
+
+review:
   link: http://search.google.com/local/writereview?placeid=ChIJx113w8QUuzsR_3IiWBPrucE
   short-link: https://goo.gl/fAcxe9
 
@@ -59,4 +59,3 @@ plugins:
     - jekyll-seo-tag
     - jekyll-sitemap
     - jekyll-redirect-from
-    

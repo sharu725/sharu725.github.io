@@ -8,14 +8,14 @@ layout: compress
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="webjeda" />
-     <!-- Prefetch DNS -->  
+     <!-- Prefetch DNS -->
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//ajax.googleapis.com">
-   
-   
+
+
     {% seo %}
 
     <!-- Favicon -->
@@ -24,17 +24,17 @@ layout: compress
     <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-iphone-60x60.png">
     <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-ipad-retina-152x152.png">
 
-    
+
     <style>
           {% capture include_to_scssify %}
           {% include googlefonts.scss %}
           {% endcapture %}
           {{ include_to_scssify | scssify }}
    </style>
-    
+
 	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
 	<!-- <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> -->
-	
+
 <!-- 	Animate.css
 	<link rel="stylesheet" href="css/animate.css">
 	Icomoon Icon Fonts
@@ -43,10 +43,10 @@ layout: compress
 	<link rel="stylesheet" href="css/bootstrap.css">
 	Flexslider
 	<link rel="stylesheet" href="css/flexslider.css">
-	
+
 	Theme style
 	<link rel="stylesheet" href="css/style.css"> -->
-	
+
 	<!-- Custom style  -->
 	<link rel="stylesheet" href="/css/main.css">
 
@@ -58,11 +58,11 @@ layout: compress
 	<![endif]-->
 
 	</head>
-	
+
 <body>
-		
+
 	<div class="wj-loader"></div>
-	
+
 <div id="page">
 	<nav class="wj-nav">
 		<div class="top-menu">
@@ -90,11 +90,11 @@ layout: compress
 						</ul>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</nav>
-	
+
 
 
 {{content}}
@@ -128,7 +128,7 @@ layout: compress
 						<li><a href="https://avocado.jekyll-themes.com/" target="_blank">Avocado</a></li>
 					</ul>
 				</div>
-				
+
 
 				<div class="col-md-4 col-md-push-1 wj-widget">
 					<h4>Contact Information</h4>
@@ -145,10 +145,10 @@ layout: compress
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; {{ "now" | date: "%Y" }} webjeda. All Rights Reserved.</small> 
+						<small class="block">&copy; {{ "now" | date: "%Y" }} webjeda. All Rights Reserved.</small>
 				    </p>
-					
-					
+
+
 						<ul class="wj-social-icons" >
 							<li>
 							    <a href="https://twitter.com/{{site.twitter.username}}"><i class="icon-twitter-with-circle"></i></a>
@@ -163,19 +163,19 @@ layout: compress
 							<a href="{{site.youtube}}"><i class="icon-youtube-with-circle"></i></a>
 							</li>
 						</ul>
-					
+
 				</div>
 			</div>
 		</div>
 	</footer>
-	
+
 	</div>
-	
+
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
 	</div>
-	
+
 	<!-- jQuery -->
 	<script src="/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -189,7 +189,7 @@ layout: compress
 	<!-- Flexslider -->
 	<script defer src="/js/jquery.flexslider-min.js"></script>
 
-   
+
     {% include analytics.html %}
 	</body>
 </html>
