@@ -62,7 +62,7 @@ portfolio: #images 400x400
      image: avocado-jekyll-themes-premium-jekyll-theme.png
 
    - name: UnboundPrep
-     link: https://unboundprep.com/
+     link: https://sharathdt.gitlab.io/unboundprep/
      image: unboundprep.png
 
    - name: Hagura
