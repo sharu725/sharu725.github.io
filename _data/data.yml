@@ -73,6 +73,10 @@ portfolio: #images 400x400
      link: https://bitcoin.kn
      image: bitcoin-knowledge-screenshot.png
 
+   - name: Blackcurrant Theme
+     link: https://bit.ly/2BH98DR
+     image: blackcurrant.png
+
 
 about:
     - title: Design & Development
