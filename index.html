@@ -4,7 +4,7 @@ redirect_from: /website.html
 image: /images/webjeda-logo-big.jpg
 ---
 
-    
+
 
     <header id="wj-header" class="wj-cover js-fullheight">
         <div class="overlay"></div>
@@ -57,7 +57,7 @@ image: /images/webjeda-logo-big.jpg
 
                     </div>
                     <div class="col-md-4 animate-box">
-        
+
                         <div class="feature-left">
                             <span class="icon">
                                 <i class="icon-linegraph"></i>
@@ -139,11 +139,11 @@ image: /images/webjeda-logo-big.jpg
                     <blockquote>
                         <p>What I liked of webjeda other than what I wrote above: <br>
                         1) I felt assisted along each step, from the choice of the domain name to the post-edits. <br>
-                        
+
                         2) I always had a direct connection with him by WhatsApp: he always replied very fast and with great accuracy. <br>
-                        
+
                         3) I never felt alone: he was always ready and available to assist me anytime. <br>
-                        
+
                         4) He has a wide view of a website building, and we set up a start up strategy to promote my new website. </p>
                     </blockquote>
                     <p>Very knowledgeable on technicalities. Reliable and the outcome is as required. For Websites i would suggest not to look any further than WebJeda!  </p>
@@ -181,7 +181,7 @@ image: /images/webjeda-logo-big.jpg
                                    </div>
                                </div>
                            </li>
-                           {% endfor %}            
+                           {% endfor %}
                           </ul>
                       </div>
                 </aside>
@@ -202,7 +202,7 @@ image: /images/webjeda-logo-big.jpg
                {% for item in site.data.data.blog %}
                 <div class="col-md-4">
                     <div class="wj-blog animate-box">
-                        <a href="{{item.link}}" class="blog-bg" style="background-image: url({{item.image}});"></a>
+                        <a href="{{item.link}}" class="blog-bg" style="background-image: url({{item.image}});" target="_blank"></a>
                         <div class="blog-text">
                             <span class="posted_on">{{item.date}}</span>
                             <h3><a href="{{item.link}}">{{item.title}}</a></h3>
@@ -212,15 +212,12 @@ image: /images/webjeda-logo-big.jpg
                                 <li><i class="icon-eye2"></i>{{item.views}}</li>
                                 <li><a href="{{item.link}}" target="_blank">Read More<i class="icon-arrow-right22"></i></a></li>
                             </ul>
-                        </div> 
+                        </div>
                     </div>
                 </div>
                 {% endfor %}
             </div>
         </div>
     </div>
-    
+
 {% include hire.html %}
-
-
-
