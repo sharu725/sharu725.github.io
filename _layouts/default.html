@@ -48,10 +48,18 @@ layout: compress
 	<link rel="stylesheet" href="css/style.css"> -->
 
 	<!-- Custom style  -->
-	<link rel="stylesheet" href="/css/main.css">
+	<!-- <link rel="stylesheet" href="/css/main.css"> -->
+
+	<style>
+				{% capture include_to_scssify %}
+				{% include main.scss %}
+				{% endcapture %}
+				{{ include_to_scssify | scssify }}
+ </style>
+
 
 	<!-- Modernizr JS -->
-	<script src="/js/modernizr-2.6.2.min.js"></script>
+	<script async src="/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
