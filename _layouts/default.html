@@ -14,6 +14,7 @@ layout: compress
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="//instant.page">
 
 
     {% seo %}
@@ -46,16 +47,16 @@ layout: compress
 
 
 <style>
-     {% capture include_to_scssify %}
-     {% include googlefonts.scss %}
-     {% endcapture %}
-     {{ include_to_scssify | scssify }}
+	{% capture include_to_scssify %}
+	{% include googlefonts.scss %}
+	{% endcapture %}
+	{{ include_to_scssify | scssify }}
 </style>
 <style>
-				{% capture include_to_scssify %}
-				{% include main.scss %}
-				{% endcapture %}
-				{{ include_to_scssify | scssify }}
+	{% capture include_to_scssify %}
+	{% include main.scss %}
+	{% endcapture %}
+	{{ include_to_scssify | scssify }}
  </style>
 
 
