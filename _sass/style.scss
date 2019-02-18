@@ -1,9 +1,9 @@
-$font-primary: 'Inconsolata', Arial, sans-serif;
+$font-primary: 'Inconsolata', "SFMono-Regular", Consolas,"Liberation Mono", Menlo, Monaco,"Courier New", monospace;
 
 
 
 // Overrides
-$grid-gutter-width: 40px !default; 
+$grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
@@ -56,16 +56,16 @@ $form-group-margin-bottom:       30px !default;
           border-radius: $radius;
 }
 @mixin flex() {
-	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap; 
-	-moz-flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 }
 
 @font-face {
@@ -80,7 +80,7 @@ $form-group-margin-bottom:       30px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -92,10 +92,10 @@ $form-group-margin-bottom:       30px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -104,7 +104,7 @@ $form-group-margin-bottom:       30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 
@@ -123,9 +123,9 @@ body {
 	height: 100%;
 	@include transition(.5s);
 	.offcanvas & {
-		overflow: hidden;	
+		overflow: hidden;
 		position: absolute;
-		
+
 		&:after {
 			@include transition(2s);
 			position: absolute;
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6, figure {
 						border-width: 8px;
 						margin-left: -8px;
 					}
-					
+
 					li {
 						display: block;
 						margin-bottom: 7px;
@@ -348,14 +348,14 @@ h1, h2, h3, h4, h5, h6, figure {
 		display: table;
 		text-align: center;
 		background: $brand-white;
-		
+
 		-webkit-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-ms-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-o-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		@include border-radius(50%);
-		
+
 		i {
 			text-align: center;
 			display: table-cell;
@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	&:hover {
 		.overlay {
-			background: rgba(0, 0, 0, .7);		
+			background: rgba(0, 0, 0, .7);
 		}
 		a {
 			-webkit-transform: scale(1.1);
@@ -383,7 +383,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			-ms-transform: scale(1.1);
 			-o-transform: scale(1.1);
 			transform: scale(1.1);
-			
+
 		}
 	}
 }
@@ -442,8 +442,8 @@ h1, h2, h3, h4, h5, h6, figure {
 					background: rgba($brand-primary,.9) !important;
 					color: $brand-white !important;
 				}
-                
-                
+
+
 			}
 			&:hover {
 				background: $brand-primary!important;
@@ -724,11 +724,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .wj-heading {
 	margin-bottom: 5em;
-    
+
     @include media-query($on-palm) {
-        margin-bottom: 1em;    
+        margin-bottom: 1em;
     }
-    
+
 	&.wj-heading-sm {
 		margin-bottom: 2em;
 	}
@@ -769,7 +769,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		right: 0;
 		background: rgba($brand-primary,1);
 	}
-	
+
 	.wj-heading {
 		margin-bottom: 0;
 		h2 {
@@ -1005,7 +1005,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 			margin-bottom: 30px;
 		}
 	}
-	> div, 
+	> div,
 	blockquote{
 		border: none;
 		padding: 0;
@@ -1017,7 +1017,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 		}
 
 	}
-	
+
 	span{
 		color: lighten($brand-black, 70%);
 	}
@@ -1083,7 +1083,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 		a{
 			color: $brand-black;
 		}
-		
+
 	}
 }
 .form-control {
@@ -1095,10 +1095,10 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 	border: none;
 	border: 2px solid rgba(0,0,0,.1);
 	font-size: 18px;
-	
+
 	font-weight: 300;
 	@include border-radius(4px);
-	
+
 	&:focus, &:active {
 		box-shadow: none;
 		border: 2px solid rgba(0,0,0,.8);
@@ -1218,7 +1218,7 @@ input[type="text"] {
 			text-decoration: none;
 			outline: none;
 		}
-	}	
+	}
 }
 
 

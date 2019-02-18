@@ -25,12 +25,6 @@ layout: compress
     <link rel="apple-touch-icon" sizes="152x152" href="{% include logo-152.html %}">
 
 
-    <style>
-          {% capture include_to_scssify %}
-          {% include googlefonts.scss %}
-          {% endcapture %}
-          {{ include_to_scssify | scssify }}
-   </style>
 
 	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
 	<!-- <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> -->
@@ -50,7 +44,14 @@ layout: compress
 	<!-- Custom style  -->
 	<!-- <link rel="stylesheet" href="/css/main.css"> -->
 
-	<style>
+
+<style>
+     {% capture include_to_scssify %}
+     {% include googlefonts.scss %}
+     {% endcapture %}
+     {{ include_to_scssify | scssify }}
+</style>
+<style>
 				{% capture include_to_scssify %}
 				{% include main.scss %}
 				{% endcapture %}
