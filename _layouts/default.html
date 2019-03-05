@@ -217,6 +217,12 @@ layout: compress
       });
   });
   </script>
+
+<!-- disable enter key -->
+	<script>
+	$('#texta').bind('copy paste', function(e) { e.preventDefault(); });
+	</script>
+
 	{% endif %}
 
     {% include analytics.html %}
