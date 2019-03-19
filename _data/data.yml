@@ -38,7 +38,7 @@ blog:
 portfolio: #images 400x400
 
    - name: Express Coffee India
-     link: https://expresscoffeeindia.com/
+     link: https://bit.ly/2TegELT
      image: expresscoffeeindia-jekyll-website.png
 
    - name: TrainWithKesh
