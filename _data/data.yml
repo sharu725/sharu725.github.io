@@ -18,21 +18,21 @@ blog:
       description: Google Form customization is done to remove the branding that is present at the end of Google Forms. This way we can have our own style for a form. We can also use these forms on static websites!
       image: /images/customize-google-forms.png
       link: https://blog.webjeda.com/google-form-customize/
-      views: 3370
+      views: 12965
       date: Jul. 15th 2016
 
     - title: Why I Chose Jekyll Over WordPress?!
       description: Jekyll will be taking over a significant share among all the blogging platforms. I chose Jekyll over WordPress! There are reasons why I made this choice and I have tried to put them before you.
       image: /images/why-jekyll-over-wordpress.png
       link: https://blog.webjeda.com/why-jekyll-over-wordpress/
-      views: 2341
+      views: 2730
       date: Jul. 15th 2016
 
     - title: 10 Must Do Jekyll SEO Optimizations
       description: Jekyll SEO (Search Engine Optimization) is something I struggled hard to figure out since I moved from WordPress. Eventually, I found out that we can do a lot of things using liquid syntax.
       image: /images/Jekyll-SEO.png
       link: https://blog.webjeda.com/optimize-jekyll-seo/
-      views: 4088
+      views: 5444
       date: Mar. 18th 2016
 
 portfolio: #images 400x400
