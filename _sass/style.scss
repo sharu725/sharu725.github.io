@@ -918,7 +918,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 		width: 100%;
 		float: left;
 		background-size: cover;
-		background-position: center center;
+		background-position: top center;
 		background-repeat: no-repeat;
 		position: relative;
 		height: 300px;
@@ -930,6 +930,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 		width: 100%;
 		float: left;
 		padding: 20px;
+		border-top: 1px solid #eee;
 		.stuff{
 			margin: 0;
 			padding: 0;
