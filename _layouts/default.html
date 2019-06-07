@@ -26,7 +26,6 @@ layout: compress
     <link rel="apple-touch-icon" sizes="152x152" href="{% include logo-152.html %}">
 
 
-
 	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
 	<!-- <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> -->
 
@@ -61,7 +60,7 @@ layout: compress
 
 
 	<!-- Modernizr JS -->
-	<script async src="/js/modernizr-2.6.2.min.js"></script>
+	<script src="/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -187,6 +186,15 @@ layout: compress
 
 	<!-- jQuery -->
 	<script src="/js/jquery.min.js"></script>
+
+  <!-- load page -->
+	<script>
+		 jQuery(document).ready(function() {
+				$(".wj-loader").fadeOut("slow");
+	});
+	</script>
+
+
 	<!-- jQuery Easing -->
 	<script src="/js/jquery.easing.1.3.min.js"></script>
 	<!-- Bootstrap -->
@@ -194,7 +202,7 @@ layout: compress
 	<!-- Waypoints -->
 	<script src="/js/jquery.waypoints.min.js"></script>
 		<!-- Main -->
-	<script src="/js/main.min.js"></script>
+	<script src="/js/main.js"></script>
 	<!-- Flexslider -->
 	<script defer src="/js/jquery.flexslider-min.js"></script>
 
