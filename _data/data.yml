@@ -85,6 +85,10 @@ portfolio: #images 400x400
      link: https://bit.ly/2BH98DR
      image: blackcurrant.png
 
+   - name: Dragon Fruit Theme
+     link: https://dragonfruit.jekyll-themes.com
+     image: dragonfruit-ecommerce-jekyll-theme-webjeda.jpg
+
 
 about:
     - title: Design & Development
