@@ -25,38 +25,18 @@ layout: compress
     <link rel="apple-touch-icon-precomposed" href="{% include logo-60.html %}">
     <link rel="apple-touch-icon" sizes="152x152" href="{% include logo-152.html %}">
 
-
-	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
-	<!-- <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> -->
-
-<!-- 	Animate.css
-	<link rel="stylesheet" href="css/animate.css">
-	Icomoon Icon Fonts
-	<link rel="stylesheet" href="css/icomoon.css">
-	Bootstrap
-	<link rel="stylesheet" href="css/bootstrap.css">
-	Flexslider
-	<link rel="stylesheet" href="css/flexslider.css">
-
-	Theme style
-	<link rel="stylesheet" href="css/style.css"> -->
-
-	<!-- Custom style  -->
-	<!-- <link rel="stylesheet" href="/css/main.css"> -->
-
-
-<style>
-	{% capture include_to_scssify %}
-	{% include googlefonts.scss %}
-	{% endcapture %}
-	{{ include_to_scssify | scssify }}
-</style>
-<style>
-	{% capture include_to_scssify %}
-	{% include main.scss %}
-	{% endcapture %}
-	{{ include_to_scssify | scssify }}
- </style>
+	<style>
+		{% capture include_to_scssify %}
+		{% include googlefonts.scss %}
+		{% endcapture %}
+		{{ include_to_scssify | scssify }}
+	</style>
+	<style>
+		{% capture include_to_scssify %}
+		{% include main.scss %}
+		{% endcapture %}
+		{{ include_to_scssify | scssify }}
+	 </style>
 
 
 	<!-- Modernizr JS -->
@@ -153,7 +133,8 @@ layout: compress
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy;&nbsp;<script>document.write(new Date().getFullYear());</script>&nbsp;webjeda. All Rights Reserved.</small>
+						<small class="block">&copy;&nbsp;<script>document.write(new Date().getFullYear());</script>&nbsp;webjeda. All Rights Reserved.</small><small>GSTN: 29EVLPS9250Q1Z8</small>
+
 				    </p>
 
 
