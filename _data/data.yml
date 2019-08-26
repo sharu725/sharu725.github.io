@@ -37,6 +37,10 @@ blog:
 
 portfolio: #images 400x400
 
+   - name: Crocodaily
+     link: https://crocodaily.com
+     image: crocodaily-authentic-malenadu-snacks.jpg
+
    - name: Ferris AI
      link: https://www.ferris.ai
      image: ferris-ai.jpg
