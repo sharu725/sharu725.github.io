@@ -1,77 +1,97 @@
 ---
 layout: default
 redirect_from:
- - /contact.html
+- /contact.html
 permalink: /contact/
 ---
 
-	<div id="wj-contact">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center wj-heading">
-					<h2>Contact us</h2>
-					<p>I would love to hear from you. Any query, suggestion or feedback would be great! If you need a website, blog, resume or portfolio site then please leave a message.</p>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-md-push-1 animate-box">
-						<h3>Our Address</h3>
-						<ul class="contact-info">
-							<li><i class="icon-location"></i>New Thippasandra, Bengaluru, Karnataka 500075</li>
-							<li><i class="icon-old-phone"></i><span class="r-phone">Get Phone Number</span></li>
-							<li><i class="icon-mail22"></i><span class="r-email">Get email</span></li>
-							<li><i class="icon-globe2"></i><a href="http://webjeda.com">http://webjeda.com</a></li>
-						</ul>
-					</div>
-					<div class="col-md-7 col-md-push-1 animate-box">
-					<script type="text/javascript">var submitted=false;</script>
-					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted) {window.location='http://webjeda.com/thanks.html';}"></iframe>
+<div id="wj-contact">
+    <div class="container">
+        <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center wj-heading">
+                <h2>Contact us</h2>
+                <p>I would love to hear from you. Any query, suggestion or feedback would be great! If you need a website, blog,
+                                                                      resume or portfolio site then please leave a message.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-md-push-1 animate-box">
+                <h3>Our Address</h3>
+                <ul class="contact-info">
+                    <li>
+                        <i class="icon-location"></i>New Thippasandra, Bengaluru, Karnataka 500075</li>
+                    <li>
+                        <i class="icon-old-phone"></i>
+                        <span class="r-phone">Get Phone Number</span>
+                    </li>
+                    <li>
+                        <i class="icon-mail22"></i>
+                        <span class="r-email">Get email</span>
+                    </li>
+                    <li>
+                        <i class="icon-globe2"></i>
+                        <a href="http://webjeda.com">http://webjeda.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-7 col-md-push-1 animate-box">
+                <script type="text/javascript">
+                    var submitted = false;
+                </script>
+                <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted) {window.location='http://webjeda.com/thanks.html';}" style="display:none"></iframe>
 
-					<form id="wj-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfmSZif4GDstMLnMKc35fVDJ9SoHDkmMUhr-_0fvVZBH4TKyw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Name" name="entry.1916444399">
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<input type="email" class="form-control" placeholder="Email" name="entry.1454621435">
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<textarea class="form-control" id="texta" cols="30" rows="4" placeholder="I want a website..." name="entry.827655478"></textarea>
-								</div>
-							</div>
-              <div class="col-md-12">
-                <div class="row form-group">
-                  <div class="col-md-12">
-                    <label for="subject">Solve this</label>
-                    <span id="rnuma"></span> + <span id="rnumb"></span> =
-                    <div class="input-group">
-                    <input type="text" value="" id="testInput" class="form-control" placeholder="Your answer" >
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button" id="mathTest">Go!</button>
-                      </span>
-                  </div>
-                  </div>
-                </div>
-              </div>
-
-						</div>
-						</form>
-					</div>
-					<!-- <div class="row">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfmSZif4GDstMLnMKc35fVDJ9SoHDkmMUhr-_0fvVZBH4TKyw/formResponse" id="wj-form" method="post" onsubmit="submitted=true;" target="hidden_iframe">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" name="entry.1916444399" placeholder="Name" type="text">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" name="entry.1454621435" placeholder="Email" type="email">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group stumble">
+                                <input class="form-control" id="nomail" name="email" placeholder="Email" type="email">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control" cols="30" id="texta" name="entry.827655478" placeholder="I want a website..." rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row form-group">
+                                <div class="col-md-12">
+                                    <label for="subject">Solve this</label>
+                                    <span id="rnuma"></span>
+                                    +
+                                    <span id="rnumb"></span>
+                                    =
+                                    <div class="input-group">
+                                        <input class="form-control" id="testInput" placeholder="Your answer" type="text" value="">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" id="mathTest" type="button">Go!</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- <div class="row">
 					    <div class="col-md-12">
 					        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15515.932213468868!2d75.356686!3d13.536631!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1b9eb13582272ff!2sWebjeda!5e0!3m2!1sen!2sin!4v1521427528786" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 					    </div>
 					</div> -->
-				</div>
-			</div>
-	</div>
+        </div>
+    </div>
+</div>
 
 
-  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script> -->
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script> -->

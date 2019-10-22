@@ -1514,3 +1514,9 @@ input[type="text"] {
 		opacity: 0;
 	}
 }
+
+.stumble {
+	position: absolute;
+	visibility: hidden;
+	z-index: -1;
+}

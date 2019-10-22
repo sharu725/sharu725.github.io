@@ -30,6 +30,7 @@ layout: compress
 		{% include googlefonts.scss %}
 		{% endcapture %}
 		{{ include_to_scssify | scssify }}
+
 	</style>
 	<style>
 		{% capture include_to_scssify %}
@@ -211,6 +212,12 @@ layout: compress
 	<script>
 	$('#texta').bind('copy paste', function(e) { e.preventDefault(); });
 	</script>
+<!-- Honeypot -->
+<script>	
+$('#nomail').keyup(function(){
+  $("#wj-form").attr('action', '/');
+});
+</script>
 
 	{% endif %}
 
