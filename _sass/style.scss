@@ -425,10 +425,10 @@ h1, h2, h3, h4, h5, h6, figure {
 			&.btn-learn{
 				background: rgba($brand-secondary,1);
 				border: none;
-				color: $brand-black !important;
+				color: $brand-white !important;
 				&:hover, &:focus{
 					background: rgba($brand-secondary,.9) !important;
-					color: $brand-black !important;
+					color: $brand-white !important;
 				}
 			}
 			&:hover, &:focus{
@@ -494,11 +494,11 @@ h1, h2, h3, h4, h5, h6, figure {
 			height: 60px;
 			background: $brand-white;
 			@include border-radius(50%);
-			i{
+			i {
 				display: table-cell;
 				vertical-align: middle;
 				height: 60px;
-				color: $brand-primary !important;
+				color: $brand-secondary!important;
 			}
 		}
 		.feature-copy {
@@ -521,7 +521,7 @@ h1, h2, h3, h4, h5, h6, figure {
 				margin-bottom: 0;
 			}
 			a{
-				color: $brand-black !important;
+				color: $brand-white !important;
 			}
 		}
 	}
@@ -573,7 +573,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #wj-slider{
-	background: $brand-tertiary;
+	background: $brand-secondary;
 	.heading{
 		h2,p{
 			color: $brand-white;
@@ -644,7 +644,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			.desc{
 				margin-top: 9em;
 				padding: 2em;
-				background: $brand-secondary;
+				background: $brand-white;
 				-webkit-box-shadow: 0px 21px 24px 0px rgba(0,0,0,0.13);
 				-moz-box-shadow: 0px 21px 24px 0px rgba(0,0,0,0.13);
 				box-shadow: 0px 21px 24px 0px rgba(0,0,0,0.13);
@@ -1519,4 +1519,10 @@ input[type="text"] {
 	position: absolute;
 	visibility: hidden;
 	z-index: -1;
+}
+
+
+
+.text-white {
+	color: white !important;
 }

@@ -1,3 +1,31 @@
+services:
+  - title: Design & Development
+    description: We design responsive, functional and superfast websites.
+    image: icon-pencil
+
+  - title: Search Engine
+    description: We optimize your website for search engines.
+    image: icon-search
+
+  - title: Marketing
+    description: We perform digital marketing to reach more audience.
+    image: icon-linegraph
+
+  - title: WordPress to Static
+    description: We convert your old WordPress site to a new static site.
+    image: icon-recycle
+
+  - title: Build Themes
+    description: We create clean, minimal and w3c compliant themes.
+    image: icon-hotairballoon
+
+  - title: Support
+    description: We provide 24x7 support to our customers.
+    image: icon-chat
+
+
+
+
 themes:
     - title: Krishna a Minimal Jekyll Theme
       description: Krishna is a minimal Jekyll theme suitable for code based blogs and project showcase. It features a modern menubar with a pleasing typography.
