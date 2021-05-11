@@ -1,0 +1,20 @@
+{
+  "name": "webjeda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "jekyll serve --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharu725/sharu725.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharu725/sharu725.github.io/issues"
+  },
+  "homepage": "https://github.com/sharu725/sharu725.github.io#readme"
+}

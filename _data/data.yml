@@ -23,126 +23,122 @@ services:
     description: We provide 24x7 support to our customers.
     image: icon-chat
 
-
-
-
 themes:
-    - title: Krishna a Minimal Jekyll Theme
-      description: Krishna is a minimal Jekyll theme suitable for code based blogs and project showcase. It features a modern menubar with a pleasing typography.
-      image: /images/krishna-jekyll-theme.png
+  - title: Hagura - Light
+    description: Hagura is a ligh-weight Jekyll theme meant for highly legible typography and performance.
+    image: /images/hagura-light-minimal-jekyll-theme.webp
+    url: https://webjeda.com/hagura/
 
-    - title: Ashwathama an App Like Jekyll Theme
-      description: Ashwathama is a clean, minimal, app like design is more comfortable to use on a mobile browser. It looks real nice on desktop as well. It is designed keeping smartphone users in mind.
-      image: /images/ashwathama-jekyll-theme.png
+  - title: Online CV
+    description: Mark your presence online with our free Online CV Jekyll theme.
+    image: /images/online-cv-jekyll-theme.webp
+    url: https://webjeda.com/online-cv/
 
-    - title: Karna a Grid Theme
-      description: Karna is a theme with a nice grid layout consisting of cards. The theme is responsive and superfast.
-      image: /images/krishna-jekyll-theme.jpg
-
-
-
+  - title: Yudish
+    description: yudish is a Jekyll theme to showcase your projects or blog posts in a clean way.
+    image: /images/yudish-jekyll-theme.webp
+    url: https://webjeda.com/yudish/
+    
 blog:
-    - title: Google Form Customization For Static Websites!
-      description: Google Form customization is done to remove the branding that is present at the end of Google Forms. This way we can have our own style for a form. We can also use these forms on static websites!
-      image: /images/customize-google-forms.png
-      link: https://blog.webjeda.com/google-form-customize/
-      views: 12965
-      date: Jul. 15th 2016
+  - title: Google Form Customization For Static Websites!
+    description: Google Form customization is done to remove the branding that is present at the end of Google Forms. This way we can have our own style for a form. We can also use these forms on static websites!
+    image: /images/customize-google-forms.png
+    link: https://blog.webjeda.com/google-form-customize/
+    views: 12965
+    date: Jul. 15th 2016
 
-    - title: Why I Chose Jekyll Over WordPress?!
-      description: Jekyll will be taking over a significant share among all the blogging platforms. I chose Jekyll over WordPress! There are reasons why I made this choice and I have tried to put them before you.
-      image: /images/why-jekyll-over-wordpress.png
-      link: https://blog.webjeda.com/why-jekyll-over-wordpress/
-      views: 2730
-      date: Jul. 15th 2016
+  - title: Why I Chose Jekyll Over WordPress?!
+    description: Jekyll will be taking over a significant share among all the blogging platforms. I chose Jekyll over WordPress! There are reasons why I made this choice and I have tried to put them before you.
+    image: /images/why-jekyll-over-wordpress.png
+    link: https://blog.webjeda.com/why-jekyll-over-wordpress/
+    views: 2730
+    date: Jul. 15th 2016
 
-    - title: 10 Must Do Jekyll SEO Optimizations
-      description: Jekyll SEO (Search Engine Optimization) is something I struggled hard to figure out since I moved from WordPress. Eventually, I found out that we can do a lot of things using liquid syntax.
-      image: /images/Jekyll-SEO.png
-      link: https://blog.webjeda.com/optimize-jekyll-seo/
-      views: 5444
-      date: Mar. 18th 2016
+  - title: 10 Must Do Jekyll SEO Optimizations
+    description: Jekyll SEO (Search Engine Optimization) is something I struggled hard to figure out since I moved from WordPress. Eventually, I found out that we can do a lot of things using liquid syntax.
+    image: /images/Jekyll-SEO.png
+    link: https://blog.webjeda.com/optimize-jekyll-seo/
+    views: 5444
+    date: Mar. 18th 2016
 
 portfolio: #images 400x400
+  - name: Crocodaily
+    link: https://crocodaily.com
+    image: crocodaily-authentic-malenadu-snacks.jpg
 
-   - name: Crocodaily
-     link: https://crocodaily.com
-     image: crocodaily-authentic-malenadu-snacks.jpg
+  - name: Ferris AI
+    link: https://www.ferris.ai
+    image: ferris-ai.jpg
 
-   - name: Ferris AI
-     link: https://www.ferris.ai
-     image: ferris-ai.jpg
+  - name: Atec Dental GmbH
+    link: https://www.atec-dental.de/
+    image: atec-dental.jpg
 
-   - name: Atec Dental GmbH
-     link: https://www.atec-dental.de/
-     image: atec-dental.jpg
+  - name: Express Coffee India
+    link: https://bit.ly/2TegELT
+    image: expresscoffeeindia-jekyll-website.png
 
-   - name: Express Coffee India
-     link: https://bit.ly/2TegELT
-     image: expresscoffeeindia-jekyll-website.png
+  - name: TrainWithKesh
+    link: https://bit.ly/2zfICzJ
+    image: trainwithkesh-jekyll-website.png
 
-   - name: TrainWithKesh
-     link: https://bit.ly/2zfICzJ
-     image: trainwithkesh-jekyll-website.png
+  - name: CloudYuga
+    link: https://cloudyuga.guru/
+    image: cloudyuga-jekyll-website.jpg
 
-   - name: CloudYuga
-     link: https://cloudyuga.guru/
-     image: cloudyuga-jekyll-website.jpg
+  - name: Nallikayi
+    link: http://nallikayi.com
+    image: nallikayi-kannada-podcast.jpg
 
-   - name: Nallikayi
-     link: http://nallikayi.com
-     image: nallikayi-kannada-podcast.jpg
+  - name: Jekyll Themes
+    link: https://jekyll-themes.com/
+    image: jekyll-themes-jekyll-templates.png
 
-   - name: Jekyll Themes
-     link: https://jekyll-themes.com/
-     image: jekyll-themes-jekyll-templates.png
+  - name: Avocado
+    link: https://avocado.jekyll-themes.com/
+    image: avocado-jekyll-themes-premium-jekyll-theme.png
 
-   - name: Avocado
-     link: https://avocado.jekyll-themes.com/
-     image: avocado-jekyll-themes-premium-jekyll-theme.png
+  - name: UnboundPrep
+    link: https://bit.ly/2PsOfoi
+    image: unboundprep.png
 
-   - name: UnboundPrep
-     link: https://bit.ly/2PsOfoi
-     image: unboundprep.png
+  - name: Hagura
+    link: http://webjeda.com/hagura/
+    image: hagura-jekyll-theme-screenshot.png
 
-   - name: Hagura
-     link: http://webjeda.com/hagura/
-     image: hagura-jekyll-theme-screenshot.png
+  - name: Bitcoin Knowledge Podcast
+    link: https://bitcoin.kn
+    image: bitcoin-knowledge-screenshot.png
 
-   - name: Bitcoin Knowledge Podcast
-     link: https://bitcoin.kn
-     image: bitcoin-knowledge-screenshot.png
+  - name: Blackcurrant Theme
+    link: https://bit.ly/2BH98DR
+    image: blackcurrant.png
 
-   - name: Blackcurrant Theme
-     link: https://bit.ly/2BH98DR
-     image: blackcurrant.png
-
-   - name: Dragon Fruit Theme
-     link: https://dragonfruit.jekyll-themes.com
-     image: dragonfruit-ecommerce-jekyll-theme-webjeda.jpg
-
+  - name: Dragon Fruit Theme
+    link: https://dragonfruit.jekyll-themes.com
+    image: dragonfruit-ecommerce-jekyll-theme-webjeda.jpg
 
 about:
-    - title: Design & Development
-      description: "<p>We design responsive, functional and superfast websites.</p><p>Web designing is moving from desktop to smartphones. We keep User Experience in mind while creating websites. A website should load quick and shoulod be accessible even on a small view-port and slow internet connection.</p><p>Modern website are all about minimalism. We keep what is necessary and leave everything else, making a website content oriented.</p>"
-      icon: icon-pencil
+  - title: Design & Development
+    description: "<p>We design responsive, functional and superfast websites.</p><p>Web designing is moving from desktop to smartphones. We keep User Experience in mind while creating websites. A website should load quick and shoulod be accessible even on a small view-port and slow internet connection.</p><p>Modern website are all about minimalism. We keep what is necessary and leave everything else, making a website content oriented.</p>"
+    icon: icon-pencil
 
-    - title: Search Engine
-      description: "<p>We optimize your website for search engines.</p><p>Organic traffic is the best kind of traffic you can get. SEO optimization involves a lot of advanced changes like SSL, AMP pages, Schema.</p><p>It is a constant processs which changes with time. As the rules change we will adopt to it provide the best for our customers.</p>"
-      icon: icon-search
+  - title: Search Engine
+    description: "<p>We optimize your website for search engines.</p><p>Organic traffic is the best kind of traffic you can get. SEO optimization involves a lot of advanced changes like SSL, AMP pages, Schema.</p><p>It is a constant processs which changes with time. As the rules change we will adopt to it provide the best for our customers.</p>"
+    icon: icon-search
 
-    - title: Marketing
-      description: "<p>We perform digital marketing to reach more audience.</p><p>We help you reach a greater audience through Digital Marketing. It involoves Social Media Marketing, Email Marketing, Search Engine Marketing etc.</p><p>Digital Marketing helps to reach targeted customers in a short period of time.</p>"
-      icon: icon-linegraph
+  - title: Marketing
+    description: "<p>We perform digital marketing to reach more audience.</p><p>We help you reach a greater audience through Digital Marketing. It involoves Social Media Marketing, Email Marketing, Search Engine Marketing etc.</p><p>Digital Marketing helps to reach targeted customers in a short period of time.</p>"
+    icon: icon-linegraph
 
-    - title: WordPress to Static
-      description: "<p>We convert your WordPress site to a Static Site.</p><p>Static Sites are fast, user friendly and rank better on search engines. Static Sites will not use any database and hence making the website highly secure when compared to WordPress.</p><p>We might loose some features but we believe that static is the new dynamic.</p>"
-      icon: icon-recycle
+  - title: WordPress to Static
+    description: "<p>We convert your WordPress site to a Static Site.</p><p>Static Sites are fast, user friendly and rank better on search engines. Static Sites will not use any database and hence making the website highly secure when compared to WordPress.</p><p>We might loose some features but we believe that static is the new dynamic.</p>"
+    icon: icon-recycle
 
-    - title: Build Themes
-      description: "<p>We create clean, minimal and w3c compliant themes.</p><p>All out themes are coded clean, w3c compliant and highly customizable. We give out our themes for free so that users can have an inside look at our design and coding skills.</p>"
-      icon: icon-hotairballoon
+  - title: Build Themes
+    description: "<p>We create clean, minimal and w3c compliant themes.</p><p>All out themes are coded clean, w3c compliant and highly customizable. We give out our themes for free so that users can have an inside look at our design and coding skills.</p>"
+    icon: icon-hotairballoon
 
-    - title: Support
-      description: "<p>We provide 24x7 support to our customers.</p><p>Customer satisfaction is something we take gravely. We believe that there is no traffic jams along the extra mile.</p>"
-      icon: icon-chat
+  - title: Support
+    description: "<p>We provide 24x7 support to our customers.</p><p>Customer satisfaction is something we take gravely. We believe that there is no traffic jams along the extra mile.</p>"
+    icon: icon-chat
